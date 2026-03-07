@@ -52,15 +52,15 @@
     </div>
     <div class="carousel-inner">
     <div class="carousel-item active">
-            <img src="./assets/img/fondo-1.png" class="d-block w-100" alt="kaia-principal">
+            <img src="./assets/img/fondo-1.png" class="d-block w-100 img-fluid" alt="kaia-principal">
             <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div class="carousel-item">
-        <img src="./assets/img/fondo-2.png" class="d-block w-100" alt="fondo-2">
+        <img src="./assets/img/fondo-2.png" class="d-block w-100 img-fluid" alt="fondo-2">
         <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div class="carousel-item">
-        <img src="./assets/img/fondo-3.png" class="d-block w-100" alt="fondo-3">
+        <img src="./assets/img/fondo-3.png" class="d-block w-100 img-fluid" alt="fondo-3">
         <div class="carousel-caption d-none d-md-block"></div>
     </div>
     </div>
@@ -72,42 +72,83 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+        <!--carrusel envios-->
     </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center bg-dark text-white p-2">
+    <div class="carousel-item active">
+        <h5>ENVIOS A TODO EL PAIS</h5>
+    </div>
+    <div class="carousel-item">
+        <h5>CAMBIOS Y DEVOLUCIONES GRATIS</h5>
+    </div>
+    <div class="carousel-item">
+        <h5>DESCUENTOS EXCLUSIVOS ONLINE</h5>
+    </div>
+    </div>
+
     <!--seccion de compra-->
     <main>
         <section class="productos-contenedor">
             <div class="card-home">
-                <img src="./assets/img/buzo-gris-hombre.png" alt="buzo-gris-hombre" class="imagen-producto">
+                <img src="./assets/img/conjunto-gris-fem-falda.png" alt="buzo-gris-hombre" class="imagen-producto">
                 <h2>Mujer</h2>
             </div>
             <div class="card-home">
-                <img src="./assets/img/chaqueta-japonesa-jean.png" alt="" class="imagen-producto">
+                <img src="./assets/img/conjunto-hombre-graft.png" alt="" class="imagen-producto">
                 <h2>Hombre</h2>
             </div>
             <div class="card-home">
-                <img src="./assets/img/pantalon-estampado-azul-mujer.png" alt="pantalon-estampado-azul-mujer" class="imagen-producto">
+                <img src="./assets/img/conjunto-infantil-bunny.png" alt="pantalon-estampado-azul-mujer" class="imagen-producto">
                 <h2>Niño</h2>
             </div>
         </section>
     </main>
     <!--formulario de newsletter-->
-    <footer>
-        <form action="" method="post">
-            <label for="email" id="footer">Suscribite a nuestro newsletter:</label>
-            <p id="footer">Suscríbete para recibir ofertas exclusivas a tu correo. ¡No te lo pierdas!
-                <input type="email" id="email" name="email" class="buttonform">
-                <input type="submit" class="buttonsubmit">
-            </p>
-                <label for="Mujer">Mujer</label>
-                <input type ="radio" id="Mujer" name="categoria" value="Mujer">
-                <label for="Hombre">Hombre</label>
-                <input type ="radio" id="Hombre" name="categoria" value="Hombre">
-                <label for="Niños">Niños</label>
-                <input type ="radio" id="Niños" name="categoria" value="Niños">
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
+    <div class="row">
+        <!-- Branding -->
+        <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">KAIA</h5>
+        <p class="text-footer">Estilo urbano que desafía lo convencional.</p>
+        </div>
+
+        <!-- Navegación -->
+        <div id="text-footer" class="col-md-3 mb-3">
+        <h6 class="fw-bold">Navegación</h6>
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Sobre Nosotros</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Servicios</a></li>
+            <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+        </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div id= "text-fic" class="col-md-3 mb-3">
+        <h6 class="fw-bold">Contacto</h6>
+        <p class="fs-7">123 Calle Ficticia, Buenos Aires</p>
+        <p class="fs-7">Argentina</p>
+        <p class="fs-7">info@kaia.com</p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-3 mb-3">
+        <h6 class="fw-bold">Suscríbete</h6>
+        <form class="d-flex">
+            <input type="email" class="form-control me-2" placeholder="Ingresa tu mail">
+            <button class="btn btn-outline-light">Enviar</button>
         </form>
         </div>
-        <p id="footer">&copy; 2024 KAIA. Todos los derechos reservados.</p>
-    </footer>
+    </div>
+
+    <!-- Línea inferior -->
+    <div class="text-center border-top border-secondary pt-3 mt-3">
+        <small>© 2026 KAIA. Todos los derechos reservados.</small>
+    </div>
+    </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

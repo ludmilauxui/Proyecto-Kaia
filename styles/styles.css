@@ -107,6 +107,12 @@ h3, h2, p {
     text-align: center;
 }
 
+h5, h6, #text-footer, #text-fic { 
+    font-family: Montserrat;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+}
+
 .text-cuotas {
     font-size: 14px;
     color: #555;
@@ -195,6 +201,13 @@ h3, h2, p {
     }
 }
 
+@media (max-width: 576px) {
+    .carousel-item img {
+    height: 500px;   
+    object-fit: cover; 
+    }
+}
+
 /*animaciones nav-bar */
 
 .nav-link {
@@ -214,7 +227,7 @@ h3, h2, p {
 }
 
 .nav-link:hover {
-  color: #ae00ff; /* cambia color al hover */
+  color: #ae00ff; /* cambia de color al hover */
 }
 
 .nav-link:hover::after {
@@ -226,5 +239,5 @@ h3, h2, p {
 .navbar-toggler {
   border: none;        /* elimina el borde */
   outline: none;       /* elimina el contorno al hacer foco */
-  box-shadow: none;    /* elimina cualquier sombra */
+  box-shadow: none;    /* elimina sombra */
 }
