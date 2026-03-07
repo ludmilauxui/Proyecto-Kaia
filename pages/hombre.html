@@ -5,28 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categoria/Hombre</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
+    <header>
     <!--nav bar bootstrap-->
-    <nav class="navbar navbar-expand-sm p-3">
+    <nav class="navbar navbar-expand-sm p-4">
         <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">KAIA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo -->
+            <a class="navbar-brand order-1 order-sm-0 mx-auto" href="./index.html">
+                <img src="../assets/img/logo_kaia.png" alt="logo_kaia" height="40">
+            </a>
+            <!-- Botón para colapsar en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
-                    <a class="nav-link" href="mujer.html">Mujer</a>
-                    <a class="nav-link" href="hombre.html">Hombre</a>
-                    <a class="nav-link" href="niños.html">Niños</a>
-                    <a class="nav-link" href="accesorios.html">Accesorios</a>
-                    <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+            <!-- Menú centrado -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link  fs-5 me-3" href="../index.html">Home</a>
+                    <a class="nav-link  fs-5 me-3" href="../pages/mujer.html">Mujer</a>
+                    <a class="nav-link  fs-5 me-3" href="../pages/hombre.html">Hombre</a>
+                    <a class="nav-link  fs-5 me-3" href="../pages/niños.html">Niños</a>
+                    <a class="nav-link  fs-5 me-3" href="../pages/accesorios.html">Accesorios</a>
+                    <a class="nav-link  fs-5 me-3" href="../pages/sobrenosotros.html">Sobre nosotros</a>
                 </div>
             </div>
-        </div>
+            <!-- Íconos alineados a la derecha -->
+        <div class="d-flex d-none d-sm-flex">
+                    <a class="nav-link" href="#"><i class="bi bi-search fs-4 me-3"></i></a>
+                    <a class="nav-link" href="#"><i class="bi bi-geo-alt fs-4 me-3"></i></a>
+                    <a class="nav-link" href="#"><i class="bi bi-person fs-4 me-3"></i></a>
+                    <a class="nav-link" href="#"><i class="bi bi-heart fs-4 me-3"></i></a>
+                    <a class="nav-link" href="#"><i class="bi bi-cart fs-4 me-3"></i></a>
+                    </div>
+                </div>
     </nav>
+    </header>
 <main>
         <!-- Barra de filtros -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light">

@@ -195,3 +195,36 @@ h3, h2, p {
     }
 }
 
+/*animaciones nav-bar */
+
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ae00ff; /* cambia color al hover */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* subrayado se expande */
+}
+
+/*estilo del menu hamburguesa*/
+
+.navbar-toggler {
+  border: none;        /* elimina el borde */
+  outline: none;       /* elimina el contorno al hacer foco */
+  box-shadow: none;    /* elimina cualquier sombra */
+}
