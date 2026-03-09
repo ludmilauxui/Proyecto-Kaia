@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+.nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    @extend %animacion-navbar;
+}
+
+.nav-link:hover {
+    color: $color-hover;
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+}
+
+.navbar-toggler {
+    border: none;        
+    outline: none;       
+    box-shadow: none;    
+}

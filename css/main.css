@@ -1,0 +1,225 @@
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ae00ff;
+  transition: width 0.3s ease;
+}
+
+.grid-item img, .imagen-producto {
+  max-width: 100%;
+  min-width: auto;
+}
+
+#button-add {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.barra-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+h3, h2, p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+h2 {
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  margin: 0 2rem;
+}
+
+#button-add {
+  background-color: rgb(183, 187, 204);
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ae00ff;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+footer {
+  background-color: rgb(36, 34, 34);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "martel", sans-serif;
+}
+
+#footer {
+  font-size: 16px;
+  font-family: "montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+.about-us {
+  font-family: "montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(36, 34, 34);
+  margin-bottom: 20px;
+  padding: 40px 0 20px 0;
+}
+
+.about-us-text {
+  font-family: "martel", sans-serif;
+  font-size: 18px;
+  color: rgb(36, 34, 34);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#text-about-us {
+  font-family: "martel", sans-serif;
+  padding: 20px 40px 60px 40px;
+}
+
+.productos-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.barra-filtro {
+  background-color: rgb(183, 187, 204);
+  border-bottom: 1px solid rgb(183, 187, 204);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid-item, .card-home {
+  border: 1px solid rgb(194, 192, 192);
+  background-color: rgb(212, 213, 214);
+  max-width: 100%;
+  gap: 10px;
+}
+
+h3, h2, p {
+  font-family: "martel", sans-serif;
+  color: rgb(75, 72, 72);
+}
+
+h6, #text-footer, #text-fic {
+  font-family: "montserrat", sans-serif;
+  font-size: 15px;
+  padding: 10px 0px 0px 0px;
+}
+
+.carrusel-banner {
+  font-weight: 700;
+  font-size: small;
+  padding: 10px 0px 0px 0px;
+  font-family: "martel", sans-serif;
+}
+
+.text-cuotas {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+  font-family: "martel", sans-serif;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-family: "martel", sans-serif;
+  color: rgb(59, 57, 57);
+}
+
+.discount {
+  color: #888;
+  text-decoration: line-through;
+  font-size: 14px;
+  font-family: "martel", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-us {
+    font-size: 28px;
+    padding: 30px;
+  }
+  .about-us-text {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+#footer {
+  font-size: 16px;
+  font-family: "montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 300px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .about-us {
+    font-size: 18px;
+    padding: 10px;
+    font-family: "martel", sans-serif;
+  }
+  .about-us-text {
+    font-size: 14px;
+    padding: 0 10px;
+    font-family: "martel", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

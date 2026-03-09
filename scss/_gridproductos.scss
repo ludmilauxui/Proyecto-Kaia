@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+.grid-container { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid-item, .card-home {
+    border: 1px solid $color-border;
+    background-color: $color-producto;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.grid-item img {
+    @extend %imagenes;
+}
+
+.imagen-producto {
+    @extend %imagenes;
+}
+
+

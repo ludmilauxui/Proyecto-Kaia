@@ -1,0 +1,40 @@
+@use "./variables" as *;
+
+h3, h2 , p {
+    @extend %textos-generales;
+    font-family: $fuente-textosgenerales;
+    color:$color-textogeneralfooter;
+}
+
+h6, #text-footer, #text-fic { 
+    font-family: $fuente-titulos;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+}
+
+.carrusel-banner {
+    font-weight: 700;
+    font-size: small;
+    padding: 10px 0px 0px 0px;
+    font-family: $fuente-textosgenerales;
+}
+
+.text-cuotas {
+    font-size: 14px;
+    color: $color-text-cuotas;
+    margin-bottom: 6px;
+    font-family: $fuente-textosgenerales;
+}
+
+.price {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-family: $fuente-textosgenerales;
+    color: $color-price;
+}
+.discount{
+    color:$color-discont;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family:$fuente-textosgenerales;
+}

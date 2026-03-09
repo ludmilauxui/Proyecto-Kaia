@@ -1,0 +1,7 @@
+@use "./variables" as *;
+
+.barra-filtro {
+    @extend %barra-filtro;
+    background-color: $color-button-add;
+    border-bottom: 1px solid $color-button-add;
+}

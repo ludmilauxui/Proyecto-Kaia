@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+body{
+    background-color: $color-fondo;
+}
+
+
+h2 {
+    padding: 20px;
+}
+
+h1 {
+    color: $color-titulos;
+    font-family: $fuente-titulos;
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0 2rem;
+}
+
+#button-add {
+    background-color: $color-button-add;
+    color: $color-titulos;
+    @extend %button-add;
+}
+
+

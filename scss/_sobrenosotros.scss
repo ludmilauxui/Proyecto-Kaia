@@ -1,0 +1,22 @@
+@use "./variables" as *;
+
+.about-us {
+    font-family: $fuente-titulos;
+    font-size: 36px;
+    font-weight: bold;
+    color: $color-footer;
+    margin-bottom: 20px;
+    padding: 40px 0 20px 0;
+}
+.about-us-text {
+    font-family: $fuente-textosgenerales;
+    font-size: 18px;
+    color: $color-footer;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#text-about-us {
+    font-family: $fuente-textosgenerales;
+    padding:20px 40px 60px 40px;
+}
