@@ -4,3 +4,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
+    .banner {
+      background: #111;
+      color: #fff;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .banner-track {
+      display: inline-block;
+      /* el ancho es el doble porque duplicamos contenido */
+      animation: mover 30s linear infinite;
+    }
+
+    @keyframes mover {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-100%); }
+    }
