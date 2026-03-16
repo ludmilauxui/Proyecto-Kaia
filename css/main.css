@@ -129,7 +129,6 @@ footer {
 
 .banner-track {
   display: inline-block;
-  /* el ancho es el doble porque duplicamos contenido */
   animation: mover 30s linear infinite;
 }
 
@@ -138,9 +137,14 @@ footer {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
 .barra-filtro {
   background-color: rgb(183, 187, 204);
   border-bottom: 1px solid rgb(183, 187, 204);
