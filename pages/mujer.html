@@ -27,16 +27,13 @@
     </div>
     <nav class="navbar navbar-expand-sm p-4">
         <div class="container-fluid">
-            <!-- Logo -->
             <a class="navbar-brand order-1 order-sm-0 mx-auto" href="./index.html">
                 <img src="../assets/img/logo_kaia.png" alt="logo_kaia" height="40">
             </a>
-            <!-- Botón para colapsar en pantallas pequeñas -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <!-- Menú centrado -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link  fs-5 me-3" href="../index.html">Home</a>
                     <a class="nav-link  fs-5 me-3" href="../pages/mujer.html">Mujer</a>
@@ -46,171 +43,163 @@
                     <a class="nav-link  fs-5 me-3" href="../pages/sobrenosotros.html">Sobre nosotros</a>
                 </div>
             </div>
-            <!-- Íconos alineados a la derecha -->
-        <div class="d-flex d-none d-sm-flex">
-                    <a class="nav-link" href="#"><i class="bi bi-search fs-4 me-3"></i></a>
-                    <a class="nav-link" href="#"><i class="bi bi-geo-alt fs-4 me-3"></i></a>
-                    <a class="nav-link" href="#"><i class="bi bi-person fs-4 me-3"></i></a>
-                    <a class="nav-link" href="#"><i class="bi bi-heart fs-4 me-3"></i></a>
-                    <a class="nav-link" href="#"><i class="bi bi-cart fs-4 me-3"></i></a>
-                    </div>
+            <div class="d-flex d-none d-sm-flex">
+                <a class="nav-link" href="#"><i class="bi bi-search fs-4 me-3"></i></a>
+                <a class="nav-link" href="#"><i class="bi bi-geo-alt fs-4 me-3"></i></a>
+                <a class="nav-link" href="#"><i class="bi bi-person fs-4 me-3"></i></a>
+                <a class="nav-link" href="#"><i class="bi bi-heart fs-4 me-3"></i></a>
+                <a class="nav-link" href="#"><i class="bi bi-cart fs-4 me-3"></i></a>
                 </div>
+            </div>
     </nav>
 </header>
-    <main>
-        <!-- Barra de filtros -->
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">Filtros</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavlightDropdown" aria-controls="navbarNavlightDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavlightDropdown">
-        <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-            <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Filtrar por:
+<main>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Filtros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavlightDropdown" aria-controls="navbarNavlightDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="dropdown-menu dropdown-menu-white">
-            <li><a class="dropdown-item" href="#">Talle</a></li>
-            <li><a class="dropdown-item" href="#">Precio</a></li>
-            <li><a class="dropdown-item" href="#">Color</a></li>
-            </ul>
-            </li>
-        </ul>
-    </div>
-    </div>
-</nav>
-        <!-- Lista de productos -->
-        <h2> Viste la confianza que llevas dentro </h2>
-        <section class="grid-container">
-            <div class="grid-item" id="pantalon-azul-hombre">
-                <img src="../assets/img/falda-cargo-fem-negra.png" alt="falda cargo femenina">
-                        <h3>Falda Cargo</h3>
-                        <p class="price">$41.243</p>
-                        <p class="text-cuotas">6 cuotas de $4.167</p>
-                        <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+            <div class="collapse navbar-collapse" id="navbarNavlightDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Filtrar por:
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-white">
+                            <li><a class="dropdown-item" href="#">Talle</a></li>
+                            <li><a class="dropdown-item" href="#">Precio</a></li>
+                            <li><a class="dropdown-item" href="#">Color</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <div class="grid-item" id="conjunto-classic-fem">
-                <img src="../assets/img/conjunto-fem-neutro.png" alt="conjunto-fem-neutro">
-                <h3>Conjunto Classic</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+    </nav>
+
+    <p class="encabezado">Viste la confianza que llevas dentro</p>
+
+    <section class="grid-container">
+        <div class="grid-item" id="pantalon-azul-hombre">
+            <img src="../assets/img/falda-cargo-fem-negra.png" alt="falda cargo femenina color negro">
+            <p>Falda Cargo</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-            <div class="grid-item" id="conunto-gris-fem-falda">
-                <img src="../assets/img/conjunto-gris-fem-falda.png" alt="conjunto-gris-fem-falda">
-                <h3>Conjunto Gris Rock</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+
+        <div class="grid-item" id="conjunto-classic-fem">
+            <img src="../assets/img/conjunto-fem-neutro.png" alt="conjunto femenino casual urbano">
+            <p>Conjunto Classic</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-            <div class="grid-item">
-                <img src="../assets/img/top-femenino-gris.png" alt="top-femenino-gris">
-                <h3>Top Femenino Gris</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+
+        <div class="grid-item" id="conunto-gris-fem-falda">
+            <img src="../assets/img/conjunto-gris-fem-falda.png" alt="conjunto gris rock femenino">
+            <p>Conjunto Gris Rock</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-            <div class="grid-item">
-                <img src="../assets/img/pantalon-estampado-azul-mujer.png" alt="pantalon-estampado-azul-mujer">
-                <h3>Pantalon Estrella</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>               
+        </div>
+
+        <div class="grid-item">
+            <img src="../assets/img/top-femenino-gris.png" alt="top gris femenino">
+            <p>Top Femenino Gris</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-                <div class="grid-item">
-                <img src="../assets/img/pantalon-fem-graft.png" alt="pantalon-fem-graft">
-                <h3>Pantalon Graft</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+
+        <div class="grid-item">
+            <img src="../assets/img/pantalon-estampado-azul-mujer.png" alt="pantalon estampado azul">
+            <p>Pantalon Pluton</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-                <div class="grid-item">
-                <img src="../assets/img/abrigo-fem-graft.png" alt="abrigo-fem-graft">
-                <h3>Abriego Graft</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+
+        <div class="grid-item">
+            <img src="../assets/img/pantalon-fem-graft.png" alt="Pantalon femenino rosa">
+            <p>Pantalon Pink Kaos</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-                <div class="grid-item">
-                <img src="../assets/img/gorra-bunny.png" alt="gorra-bunny">
-                <h3>Gorra Bunny</h3>
-                <p class="price">$41.243</p>
-                <p class="text-cuotas">6 cuotas de $4.167</p>
-                <p class="discount">-25%</p>
-                            <div class="price-button-container">
-                                <button id="button-add">+</button>
-                            </div>
+        </div>
+
+        <div class="grid-item">
+            <img src="../assets/img/abrigo-fem-graft.png" alt="Abrigo top rosa">
+            <p>Abriego Pink Kaos</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
             </div>
-        </section>
-    </main>
-    <!--formulario de newsletter-->
-<footer class="bg-dark text-white pt-4">
+        </div>
+
+        <div class="grid-item">
+            <img src="../assets/img/gorra-bunny.png" alt="gorra bunny">
+            <p>Gorra Bunny</p>
+            <p class="price">$41.243</p>
+            <p class="text-cuotas">6 cuotas de $4.167</p>
+            <p class="discount">-25%</p>
+            <div class="price-button-container">
+                <button id="button-add">+</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-dark pt-4">
     <div class="container">
-    <div class="row">
-        <!-- Branding -->
-        <div class="col-md-3 mb-3">
-        <h5 class="fw-bold">KAIA</h5>
-        <p class="text-footer">Estilo urbano que desafía lo convencional.</p>
+        <div class="row align-items-center">
+            <div class="col-md-4 mb-3" id="p-urbano">
+                <p class="fw-bold text-light">KAIA</p>
+                <p class="text-footer text-secondary fs-6">Estilo urbano que desafía lo convencional.</p>
+            </div>
+            <div id="text-footer" class="col-md-4 mb-3">
+                <p id="navegacionfooter" class="fs-6 fw-bold">Navegación</p>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-secondary text-decoration-none">Sobre Nosotros</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Servicios</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="text-fic" class="col-md-4 mb-3">
+                <p class="text-light fs-6 fw-bold">Contacto</p>
+                <p class="fs-6 text-secondary">123 Calle Ficticia, Buenos Aires</p>
+                <p class="fs-6 text-secondary">Argentina</p>
+                <p class="fs-6 text-secondary">info@kaia.com</p>
+            </div>
         </div>
-
-        <!-- Navegación -->
-        <div id="text-footer" class="col-md-3 mb-3">
-        <h6 class="fw-bold">Navegación</h6>
-        <ul class="list-unstyled">
-            <li><a href="#" class="text-white text-decoration-none">Sobre Nosotros</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Servicios</a></li>
-            <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
-        </ul>
+        <div class="text-center border-top border-secondary pt-3 mt-3">
+            <small>© 2026 KAIA. Todos los derechos reservados.</small>
         </div>
-
-        <!-- Contacto -->
-        <div id= "text-fic" class="col-md-3 mb-3">
-        <h6 class="fw-bold">Contacto</h6>
-        <p class="fs-7">123 Calle Ficticia, Buenos Aires</p>
-        <p class="fs-7">Argentina</p>
-        <p class="fs-7">info@kaia.com</p>
-        </div>
-
-        <!-- Newsletter -->
-        <div class="col-md-3 mb-3">
-        <h6 class="fw-bold">Suscríbete</h6>
-        <form class="d-flex">
-            <input type="email" class="form-control me-2" placeholder="Ingresa tu mail">
-            <button class="btn btn-outline-light">Enviar</button>
-        </form>
-        </div>
-    </div>
-
-    <!-- Línea inferior -->
-    <div class="text-center border-top border-secondary pt-3 mt-3">
-        <small>© 2026 KAIA. Todos los derechos reservados.</small>
-    </div>
     </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
+

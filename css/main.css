@@ -29,7 +29,7 @@
   padding: 10px;
 }
 
-h3, h2, p {
+p {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -41,7 +41,7 @@ body {
   background-color: #eeeeee;
 }
 
-h2 {
+.encabezado {
   padding: 20px;
 }
 
@@ -91,6 +91,12 @@ footer {
   font-family: "montserrat", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 1.6;
+}
+
+#p-urbano {
+  max-width: 250px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .about-us {
@@ -163,15 +169,20 @@ footer {
   gap: 10px;
 }
 
-h3, h2, p {
+p {
   font-family: "martel", sans-serif;
   color: rgb(75, 72, 72);
 }
 
-h6, #text-footer, #text-fic {
+#text-footer, #text-fic {
   font-family: "montserrat", sans-serif;
   font-size: 15px;
   padding: 10px 0px 0px 0px;
+}
+
+#navegacionfooter {
+  color: aliceblue;
+  font-family: "montserrat", sans-serif;
 }
 
 .carrusel-banner {

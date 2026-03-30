@@ -1,15 +1,20 @@
 @use "./variables" as *;
 
-h3, h2 , p {
+p {
     @extend %textos-generales;
     font-family: $fuente-textosgenerales;
     color:$color-textogeneralfooter;
 }
 
-h6, #text-footer, #text-fic { 
+#text-footer, #text-fic { 
     font-family: $fuente-titulos;
     font-size: 15px;
     padding: 10px 0px 0px 0px;
+}
+
+#navegacionfooter {
+    color: aliceblue;
+    font-family: $fuente-titulos;
 }
 
 .carrusel-banner {
